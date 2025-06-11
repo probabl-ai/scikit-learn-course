@@ -1,0 +1,3 @@
+[submodule "tutorials-livestreams/_common/modules"]
+	path = tutorials-livestreams/_common/modules
+	url = https://github.com/France-ioi/bebras-modules
