@@ -48,6 +48,7 @@ cv_results
 # a wrong interpretation of the scores.
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 import numpy as np
 
@@ -85,6 +86,7 @@ _ = ax.legend(
 # parallel coordinates plot.
 
 # %%
+# %pip install plotly nbformat
 import numpy as np
 import plotly.express as px
 

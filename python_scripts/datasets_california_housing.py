@@ -114,6 +114,7 @@ california_housing.frame[features_of_interest].describe()
 # in the district.
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 sns.scatterplot(

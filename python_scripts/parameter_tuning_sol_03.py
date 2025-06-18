@@ -152,6 +152,7 @@ cv_results["n_neighbors"] = cv_results["n_neighbors"].astype(np.int64)
 cv_results
 
 # %% tags=["solution"]
+# %pip install plotly nbformat
 import plotly.express as px
 
 fig = px.parallel_coordinates(

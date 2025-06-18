@@ -60,6 +60,7 @@ target = adult_census[target_name]
 # plotly `Parcoords`.
 
 # %%
+# %pip install plotly nbformat
 import plotly.graph_objects as go
 from sklearn.preprocessing import LabelEncoder
 

@@ -195,6 +195,7 @@ data_train_scaled.describe()
 # the data itself but the axes get shifted and scaled.
 
 # %%
+# %pip install seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 

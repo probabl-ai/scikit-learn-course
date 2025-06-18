@@ -64,6 +64,7 @@ _ = penguins.hist(figsize=(8, 4))
 # [`seaborn.pairplot`](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
 # %%
+# %pip install seaborn
 # solution
 import seaborn
 

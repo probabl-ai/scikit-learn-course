@@ -69,4 +69,5 @@ data_train, data_test, target_train, target_test = train_test_split(
 # - the decision of the random forest.
 
 # %%
+# %pip install seaborn
 # Write your code here.

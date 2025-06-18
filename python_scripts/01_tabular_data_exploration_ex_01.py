@@ -56,6 +56,7 @@
 # [`seaborn.pairplot`](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
 # %%
+# %pip install seaborn
 # Write your code here.
 
 # %% [markdown]
