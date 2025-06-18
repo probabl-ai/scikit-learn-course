@@ -13,7 +13,11 @@
 # scikit-learn.
 
 # %%
+# %pip install pyodide-http
+import pyodide_http
 from sklearn.datasets import fetch_california_housing
+
+pyodide_http.patch_all()
 
 california_housing = fetch_california_housing(as_frame=True)
 

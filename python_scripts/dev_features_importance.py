@@ -26,8 +26,12 @@
 # the median income of people in the neighborhoods (block).
 
 # %%
-from sklearn.datasets import fetch_california_housing
+# %pip install pyodide-http
+import pyodide_http
 import pandas as pd
+from sklearn.datasets import fetch_california_housing
+
+pyodide_http.patch_all()
 
 X, y = fetch_california_housing(as_frame=True, return_X_y=True)
 
