@@ -51,6 +51,7 @@ def generate_data(n_samples=50):
 data_train, data_test, target_train = generate_data()
 
 # %%
+# %pip install seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 

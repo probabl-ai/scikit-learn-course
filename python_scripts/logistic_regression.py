@@ -101,6 +101,7 @@ print(f"Accuracy on test set: {accuracy:.3f}")
 # ```
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 from sklearn.inspection import DecisionBoundaryDisplay
 

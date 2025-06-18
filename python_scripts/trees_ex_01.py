@@ -65,6 +65,7 @@ data_train, data_test, target_train, target_test = train_test_split(
 # ```
 
 # %%
+# %pip install seaborn
 # Write your code here.
 
 # %% [markdown]

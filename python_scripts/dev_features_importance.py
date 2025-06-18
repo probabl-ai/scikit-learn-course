@@ -82,6 +82,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # Let's quickly inspect some features and the target:
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 train_dataset = X_train.copy()

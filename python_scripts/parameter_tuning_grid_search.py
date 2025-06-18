@@ -240,6 +240,7 @@ pivoted_cv_results
 # We can use a heatmap representation to show the above dataframe visually.
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 ax = sns.heatmap(

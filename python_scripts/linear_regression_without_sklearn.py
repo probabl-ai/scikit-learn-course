@@ -29,6 +29,7 @@ penguins
 # we would like to infer its mass.
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 feature_name = "Flipper Length (mm)"

@@ -103,6 +103,7 @@ target.value_counts(normalize=True)
 # and the target using a pair plot representation.
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 _ = sns.pairplot(blood_transfusion, hue="Class")
