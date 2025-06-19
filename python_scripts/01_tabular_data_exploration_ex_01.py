@@ -49,6 +49,8 @@
 # Plot histograms for the numerical features
 
 # %%
+import matplotlib
+
 # Write your code here.
 
 # %% [markdown]

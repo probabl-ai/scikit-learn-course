@@ -62,6 +62,8 @@ data.info()
 # distributions.
 
 # %%
+import matplotlib
+
 _ = data.hist(figsize=(12, 10), bins=30, edgecolor="black")
 
 # %% [markdown]

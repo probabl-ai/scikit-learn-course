@@ -56,6 +56,8 @@ penguins["Species"].value_counts()
 # Plot histograms for the numerical features
 
 # %%
+import matplotlib
+
 # solution
 _ = penguins.hist(figsize=(8, 4))
 
