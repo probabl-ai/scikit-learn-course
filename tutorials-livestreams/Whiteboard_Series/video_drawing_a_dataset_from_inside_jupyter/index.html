@@ -12,7 +12,7 @@
             importModules([
                 'jquery-1.7.1', 'JSON-js', 'raphael-2.2.1', 'jschannel',
                 'platform-pr', 'installationAPI.01', 'miniPlatform',
-                'taskStyles-mobileFirst',
+                'taskStyles-mobileFirst', 'fonts-loader-1.0', 'dual-1.0',
                 'taskVideo', 'taskVideoPlayer', 'taskVideo_css']);
         </script>
         <script class="remove" type="text/javascript">
@@ -33,47 +33,32 @@ var videoData = {
     video_id: "STPv0jSAQEk",
     // sections: [
     //     {
-    //         title: "Intro",
+    //         title: "Drawing a dataset",
     //         description: "Overview of the lesson and its focus on fundamental machine learning concepts.",
     //         parts: 4,
     //         start: 0
     //     },
     //     {
-    //         title: "Why and When",
+    //         title: "Reactive",
     //         description: "Exploring the motivations for using machine learning and the types of problems it can solve.",
     //         parts: 4,
-    //         start: '0:37'
+    //         start: '2:51'
     //     },
     //     {
-    //         title: "Predictive Models",
+    //         title: "Anywidget",
     //         description: "Understanding how machine learning builds rules from data to make predictions.",
     //         parts: 4,
-    //         start: '3:51'
+    //         start: '7:25'
     //     },
-    //     {
-    //         title: "Generalizing",
-    //         description: "The challenge of ensuring models work well on new, unseen data.",
-    //         parts: 4,
-    //         start: '6:09'
-    //     },
-    //     {
-    //         title: "Concepts",
-    //         description: "Key terms and structures used in machine learning to represent data.",
-    //         parts: 4,
-    //         start: '7:14'
-    //     },
-    //     {
-    //         title: "Goals",
-    //         description: "The different types of machine learning tasks and what they aim to achieve.",
-    //         parts: 4,
-    //         start: '9:09'
-    //     }
     // ],
     show_viewed: true,
     youtube: {
         rel: 0,
         autoplay: 0
     }
+};
+Dual.params = {
+    sideurl: "https://probabl-static.france-ioi.org/jupyter/v0/notebooks/index.html?sLocale=en&path=notebooks%2Fnotebook.ipynb"
 };
         </script>
     </head>
