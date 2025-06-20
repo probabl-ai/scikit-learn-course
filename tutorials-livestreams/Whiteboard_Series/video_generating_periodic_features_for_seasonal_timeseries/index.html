@@ -12,7 +12,7 @@
             importModules([
                 'jquery-1.7.1', 'JSON-js', 'raphael-2.2.1', 'jschannel',
                 'platform-pr', 'installationAPI.01', 'miniPlatform',
-                'taskStyles-mobileFirst',
+                'taskStyles-mobileFirst', 'fonts-loader-1.0', 'dual-1.0',
                 'taskVideo', 'taskVideoPlayer', 'taskVideo_css']);
         </script>
         <script class="remove" type="text/javascript">
@@ -31,43 +31,46 @@
         <script type="text/javascript">
 var videoData = {
     video_id: "cEpiqu3QCW0",
-    // sections: [
-    //     {
-    //         title: "Intro",
-    //         description: "Overview of the lesson and its focus on fundamental machine learning concepts.",
-    //         parts: 4,
-    //         start: 0
-    //     },
-    //     {
-    //         title: "Monthly Features",
-    //         description: "Exploring the motivations for using machine learning and the types of problems it can solve.",
-    //         parts: 4,
-    //         start: '1:21'
-    //     },
-    //     {
-    //         title: "Improvements",
-    //         description: "Understanding how machine learning builds rules from data to make predictions.",
-    //         parts: 4,
-    //         start: '3:55'
-    //     },
-    //     {
-    //         title: "Periodic Features",
-    //         description: "The challenge of ensuring models work well on new, unseen data.",
-    //         parts: 4,
-    //         start: '6:20'
-    //     },
-    //     {
-    //         title: "New Model",
-    //         description: "Key terms and structures used in machine learning to represent data.",
-    //         parts: 4,
-    //         start: '10:56'
-    //     },
-    // ],
+    sections: [
+        {
+            title: "Intro",
+            // description: "Overview of the lesson and its focus on fundamental machine learning concepts.",
+            parts: 4,
+            start: 0
+        },
+        {
+            title: "Monthly Features",
+            // description: "Exploring the motivations for using machine learning and the types of problems it can solve.",
+            parts: 4,
+            start: '1:21'
+        },
+        {
+            title: "Improvements",
+            // description: "Understanding how machine learning builds rules from data to make predictions.",
+            parts: 4,
+            start: '3:55'
+        },
+        {
+            title: "Periodic Features",
+            // description: "The challenge of ensuring models work well on new, unseen data.",
+            parts: 4,
+            start: '6:20'
+        },
+        {
+            title: "New Model",
+            // description: "Key terms and structures used in machine learning to represent data.",
+            parts: 4,
+            start: '10:56'
+        },
+    ],
     show_viewed: true,
     youtube: {
         rel: 0,
         autoplay: 0
     }
+};
+Dual.params = {
+    sideurl: "https://probabl-static.france-ioi.org/jupyter/v0/notebooks/index.html?sLocale=en&path=notebooks%2Fnotebook.ipynb"
 };
         </script>
     </head>
