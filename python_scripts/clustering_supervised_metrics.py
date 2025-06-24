@@ -74,6 +74,7 @@ data["category"].value_counts()
 # This encoder is well suited to cluster text using `KMeans`.
 
 # %%
+# %pip install skrub
 from skrub import StringEncoder
 from sklearn.cluster import KMeans
 from sklearn.pipeline import make_pipeline

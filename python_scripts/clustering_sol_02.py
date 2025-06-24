@@ -79,6 +79,7 @@ model = make_pipeline(
 # for the k-means cluster and the "true" labels).
 
 # %%
+# %pip install seaborn
 # solution
 import matplotlib.pyplot as plt
 import seaborn as sns

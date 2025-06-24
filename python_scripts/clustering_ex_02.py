@@ -65,6 +65,7 @@ penguins
 # for the k-means cluster and the "true" labels).
 
 # %%
+# %pip install seaborn
 # Write your code here.
 
 # %% [markdown]

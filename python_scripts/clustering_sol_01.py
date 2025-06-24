@@ -31,6 +31,7 @@ data
 # We can explore the data using a seaborn `pairplot`.
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 _ = sns.pairplot(data)
