@@ -171,7 +171,7 @@ More trees: longer to fit, slower to predict and bigger models to deploy.
 
 ---
 
-# Take away
+# Takeaway
 
 **Bagging** and **random forests** fit trees **independently**
 - each **deep tree overfits** individually

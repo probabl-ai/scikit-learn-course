@@ -1,4 +1,4 @@
-# Main take-away
+# Main takeaways
 
 ## Wrap-up
 
