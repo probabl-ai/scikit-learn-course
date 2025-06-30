@@ -19,6 +19,7 @@
 # can get into trouble if we are not careful. Let's load the iris dataset.
 
 # %%
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import load_iris
 
 data, target = load_iris(as_frame=True, return_X_y=True)
@@ -100,8 +101,6 @@ _ = plt.title("Class value in target y")
 # two distinct lists; one for the training set and one for the testing set.
 
 # %%
-import pandas as pd
-
 n_splits = 3
 cv = KFold(n_splits=n_splits)
 

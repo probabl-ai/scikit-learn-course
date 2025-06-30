@@ -15,6 +15,7 @@
 # %%
 # %pip install pyodide-http
 import pyodide_http
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
 
 pyodide_http.patch_all()
@@ -170,8 +171,6 @@ _ = plt.title("Median house value depending of\n their spatial location")
 # such that we can create proper histogram.
 
 # %%
-import pandas as pd
-
 # Drop the unwanted columns
 columns_drop = ["Longitude", "Latitude"]
 subset = california_housing.frame.iloc[indices].drop(columns=columns_drop)

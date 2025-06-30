@@ -14,6 +14,7 @@
 # %%
 # %pip install pyodide-http
 import pyodide_http
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 
@@ -114,8 +115,6 @@ model_random_search.best_params_
 # to try!).
 
 # %% tags=["solution"]
-import pandas as pd
-
 cv_results = pd.DataFrame(model_random_search.cv_results_)
 
 # %% [markdown] tags=["solution"]

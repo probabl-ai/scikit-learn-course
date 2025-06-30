@@ -23,6 +23,7 @@
 # %%
 # %pip install pyodide-http
 import pyodide_http
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 
@@ -85,7 +86,6 @@ print(f"In this case, n_features={len(data.columns)}")
 # trees (i.e. shallow trees) might also lead to an underfitted forest.
 
 # %%
-import pandas as pd
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.ensemble import RandomForestRegressor
 
