@@ -22,6 +22,7 @@
 # %%
 # %pip install pyodide-http
 import pyodide_http
+import pandas as pd
 from sklearn.datasets import fetch_california_housing
 
 pyodide_http.patch_all()
@@ -34,7 +35,6 @@ target *= 100  # rescale the target in k$
 # coordinates:
 
 # %%
-import pandas as pd
 from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler

@@ -17,6 +17,7 @@
 # %%
 # %pip install pyodide-http
 import pyodide_http
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
 
@@ -85,8 +86,6 @@ search = RandomizedSearchCV(
 _ = search.fit(data_train, target_train)
 
 # %% tags=["solution"]
-import pandas as pd
-
 columns = [f"param_{name}" for name in param_grid.keys()]
 columns += ["mean_test_error", "std_test_error"]
 cv_results = pd.DataFrame(search.cv_results_)

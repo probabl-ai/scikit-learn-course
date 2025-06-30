@@ -25,6 +25,7 @@
 # %%
 # %pip install pyodide-http
 import pyodide_http
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
 
 pyodide_http.patch_all()
@@ -48,7 +49,6 @@ cv = ShuffleSplit(n_splits=30, test_size=0.2, random_state=0)
 # results.
 
 # %%
-import pandas as pd
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import cross_validate
 
