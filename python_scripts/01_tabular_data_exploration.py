@@ -256,7 +256,8 @@ pd.crosstab(
 # variables.
 
 # %%
-# %pip install seaborn  # required to use seaborn in jupyterlite
+# required to use seaborn in jupyterlite
+# %pip install seaborn
 import seaborn as sns
 
 # We plot a subset of the data to keep the plot readable and make the plotting
