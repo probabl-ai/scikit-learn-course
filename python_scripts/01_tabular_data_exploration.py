@@ -256,7 +256,7 @@ pd.crosstab(
 # variables.
 
 # %%
-# required to use seaborn in jupyterlite
+# required to use seaborn in jupyterlite:
 # %pip install seaborn
 import seaborn as sns
 
