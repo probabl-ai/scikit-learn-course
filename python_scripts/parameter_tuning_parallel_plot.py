@@ -104,7 +104,7 @@ fig = px.parallel_coordinates(
     color="mean_test_score",
     color_continuous_scale=px.colors.sequential.Viridis,
 )
-fig.show()
+fig.show(renderer="notebook")
 
 # %% [markdown]
 # ```{note}
