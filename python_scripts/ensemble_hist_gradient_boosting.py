@@ -63,7 +63,7 @@ cv_results_gbdt = cross_validate(
     data,
     target,
     scoring="neg_mean_absolute_error",
-    n_jobs=2,
+    # n_jobs=2,  # Uncomment this line if you run locally
 )
 
 # %%
@@ -127,7 +127,7 @@ cv_results_gbdt = cross_validate(
     data,
     target,
     scoring="neg_mean_absolute_error",
-    n_jobs=2,
+    # n_jobs=2,  # Uncomment this line if you run locally
 )
 
 # %%
@@ -166,7 +166,7 @@ cv_results_hgbdt = cross_validate(
     data,
     target,
     scoring="neg_mean_absolute_error",
-    n_jobs=2,
+    # n_jobs=2,  # Uncomment this line if you run locally
 )
 
 # %%
