@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>video_bagging</title>
+        <script>
+            window.stringsLanguage = 'en';
+        </script>
+        <script class="remove" type="text/javascript" src="../../_common/modules/pemFioi/importModules-1.4-mobileFirst.js" id="import-modules"></script>
+        <script class="remove" type="text/javascript">
+            var modulesPath = '../../_common/modules';
+            importModules([
+                'jquery-1.7.1', 'JSON-js', 'raphael-2.2.1', 'jschannel',
+                'platform-pr', 'installationAPI.01', 'miniPlatform',
+                'taskStyles-mobileFirst', 'fonts-loader-1.0', 'dual-1.0',
+                'taskVideo', 'taskVideoPlayer', 'taskVideo_css']);
+        </script>
+        <script class="remove" type="text/javascript">
+            var json = {
+                "id": "Skolar/07_Ensemble_Models/video_bagging",
+                "language": "en",
+                "version": "en.01",
+                "authors": [],
+                "translators": [],
+                "license": "",
+                "taskPathPrefix": "",
+                "modulesPathPrefix": "",
+                "browserSupport": []
+            };
+        </script>
+        <script type="text/javascript">
+var videoData = {
+    video_id: "qm3degtDoTo",
+    sections: [
+        {
+            title: "Intro",
+            description: "Overview of the lesson.",
+            parts: 4,
+            start: 0
+        },
+        {
+            title: "Bagging for classification",
+            description: "Explain booststrap and aggregation.",
+            parts: 4,
+            start: '1:07'
+        },
+        {
+            title: "Bagging in regression",
+            description: "Uncorrelated errors average out in bagging.",
+            parts: 4,
+            start: '4:39'
+        },
+        {
+            title: "Bagging vs Random Forests",
+            description: "Random Forests are like bagged decision trees, but not quite!",
+            parts: 4,
+            start: '5:50'
+        },
+        {
+            title: "Take home messages",
+            description: "Bagging fits independent deep trees that overfit individually.",
+            parts: 4,
+            start: '7:10'
+        }
+    ],
+    show_viewed: true,
+    youtube: {
+        rel: 0,
+        autoplay: 0
+    }
+};
+Dual.params = {
+    sideurl: 'Bagging.pdf'
+};
+        </script>
+    </head>
+    <body>
+        <div id="task">
+            <img src="icon.png" style="display:none">
+<!--            <div>
+               <p>
+                  Optional text here
+               </p>
+            </div>-->
+            <div id="taskContent">Loading...</div>
+        </div>
+    </body>
+</html>
