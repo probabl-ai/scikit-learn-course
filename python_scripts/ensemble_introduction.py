@@ -23,7 +23,12 @@
 # ```
 
 # %%
+# %pip install pyodide-http
+import pyodide_http
+import pandas  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
+
+pyodide_http.patch_all()
 
 data, target = fetch_california_housing(as_frame=True, return_X_y=True)
 target *= 100  # rescale the target in k$

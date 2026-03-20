@@ -63,6 +63,7 @@ tree.fit(data_train, target_train)
 # ```
 
 # %%
+# %pip install seaborn
 # solution
 import matplotlib.pyplot as plt
 import matplotlib as mpl

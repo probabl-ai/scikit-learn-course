@@ -39,6 +39,7 @@ data_reg = pd.read_csv("../datasets/penguins_regression.csv")
 # decision boundary for classification and the regression line for regression.
 
 # %%
+# %pip install seaborn
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns

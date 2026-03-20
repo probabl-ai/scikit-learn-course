@@ -327,7 +327,7 @@ efficiently.
 
 ---
 
-# Take away
+# Takeaway
 
 - **Bagging** and **random forests** fit trees **independently**
   + each **deep tree overfits** individually

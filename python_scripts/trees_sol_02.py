@@ -70,6 +70,7 @@ target_predicted_tree = tree.predict(data_test)
 # predictions of both models on the top.
 
 # %%
+# %pip install seaborn
 # solution
 import matplotlib.pyplot as plt
 import seaborn as sns

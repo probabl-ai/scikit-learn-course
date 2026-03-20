@@ -70,6 +70,7 @@ predicted_body_mass = (
 )
 
 # %%
+# %pip install seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 

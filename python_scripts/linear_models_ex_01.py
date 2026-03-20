@@ -71,6 +71,7 @@ import numpy as np
 flipper_length_range = np.linspace(data.min(), data.max(), num=300)
 
 # %%
+# %pip install seaborn
 # Write your code here.
 
 # %% [markdown]

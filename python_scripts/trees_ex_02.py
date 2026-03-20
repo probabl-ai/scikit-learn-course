@@ -58,6 +58,7 @@ data_train, target_train = penguins[[feature_name]], penguins[target_name]
 # predictions of both models on the top.
 
 # %%
+# %pip install seaborn
 # Write your code here.
 
 # %% [markdown]

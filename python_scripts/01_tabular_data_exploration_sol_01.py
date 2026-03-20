@@ -56,6 +56,8 @@ penguins["Species"].value_counts()
 # Plot histograms for the numerical features
 
 # %%
+import matplotlib
+
 # solution
 _ = penguins.hist(figsize=(8, 4))
 
@@ -64,6 +66,7 @@ _ = penguins.hist(figsize=(8, 4))
 # [`seaborn.pairplot`](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
 # %%
+# %pip install seaborn
 # solution
 import seaborn
 

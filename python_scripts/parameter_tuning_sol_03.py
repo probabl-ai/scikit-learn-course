@@ -12,8 +12,13 @@
 # generalization performance on a training set.
 
 # %%
+# %pip install pyodide-http
+import pyodide_http
+import pandas as pd  # required when fetching with `as_frame=True`
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
+
+pyodide_http.patch_all()
 
 data, target = fetch_california_housing(return_X_y=True, as_frame=True)
 target *= 100  # rescale the target in k$
@@ -110,8 +115,6 @@ model_random_search.best_params_
 # to try!).
 
 # %% tags=["solution"]
-import pandas as pd
-
 cv_results = pd.DataFrame(model_random_search.cv_results_)
 
 # %% [markdown] tags=["solution"]
@@ -152,6 +155,7 @@ cv_results["n_neighbors"] = cv_results["n_neighbors"].astype(np.int64)
 cv_results
 
 # %% tags=["solution"]
+# %pip install plotly nbformat
 import plotly.express as px
 
 fig = px.parallel_coordinates(

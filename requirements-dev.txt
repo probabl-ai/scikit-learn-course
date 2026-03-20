@@ -4,6 +4,7 @@ matplotlib
 seaborn >= 0.13
 plotly
 jupyter-book < 2.0
+skrub
 jupytext
 beautifulsoup4
 IPython

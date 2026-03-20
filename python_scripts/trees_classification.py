@@ -55,6 +55,7 @@ linear_model = LogisticRegression()
 linear_model.fit(data_train, target_train)
 
 # %%
+# %pip install seaborn
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import seaborn as sns

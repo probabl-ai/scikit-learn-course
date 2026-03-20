@@ -83,6 +83,7 @@ forest_predictions = forest.predict(data_range)
 # - the decision of the random forest.
 
 # %%
+# %pip install seaborn
 # solution
 import matplotlib.pyplot as plt
 import seaborn as sns

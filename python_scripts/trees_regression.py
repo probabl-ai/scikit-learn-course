@@ -58,6 +58,7 @@ data_test = pd.DataFrame(
 # as the real world data on which the model would be deployed.
 
 # %%
+# %pip install seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 

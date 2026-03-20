@@ -166,7 +166,7 @@ efficiently.
 
 ---
 
-# Take away
+# Takeaway
 
 **Bagging**  | **Boosting**
 ------------ | -------------

@@ -49,6 +49,8 @@
 # Plot histograms for the numerical features
 
 # %%
+import matplotlib
+
 # Write your code here.
 
 # %% [markdown]
@@ -56,6 +58,7 @@
 # [`seaborn.pairplot`](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
 # %%
+# %pip install seaborn
 # Write your code here.
 
 # %% [markdown]

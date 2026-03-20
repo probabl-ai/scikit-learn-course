@@ -197,6 +197,7 @@ subset["power"] = pd.qcut(subset["power"], 6, retbins=False)
 subset["power"] = subset["power"].apply(lambda x: x.mid)
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 _ = sns.pairplot(data=subset, hue="power", palette="viridis")

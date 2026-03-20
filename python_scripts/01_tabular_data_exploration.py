@@ -166,6 +166,8 @@ print(f"The dataset contains {adult_census.shape[1] - 1} features.")
 # for features containing numerical values:
 
 # %%
+import matplotlib  # required to use pandas plotting in jupyterlite
+
 _ = adult_census.hist(figsize=(20, 14))
 
 # %% [markdown]
@@ -254,6 +256,8 @@ pd.crosstab(
 # variables.
 
 # %%
+# required to use seaborn in jupyterlite:
+# %pip install seaborn
 import seaborn as sns
 
 # We plot a subset of the data to keep the plot readable and make the plotting

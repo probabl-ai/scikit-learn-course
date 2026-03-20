@@ -258,6 +258,7 @@ pivoted_cv_results
 # follows:
 
 # %%
+# %pip install seaborn
 import seaborn as sns
 
 ax = sns.heatmap(

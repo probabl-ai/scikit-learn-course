@@ -182,7 +182,7 @@ print(
 # incomplete, and once sparse representation are handled correctly, training
 # time might improve with such kinds of encodings.
 #
-# The main take away message is that arbitrary integer coding of categories is
+# The main takeaway message is that arbitrary integer coding of categories is
 # perfectly fine for `HistGradientBoostingClassifier` and yields fast training
 # times.
 

@@ -51,6 +51,7 @@ def generate_data(n_samples=50):
 data_train, data_test, target_train = generate_data()
 
 # %%
+# %pip install seaborn
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -265,8 +266,12 @@ print(f"Error of the tree: {target_true - y_pred_first_and_second_tree:.3f}")
 # boosting on the California housing dataset.
 
 # %%
+# %pip install pyodide-http
+import pyodide_http
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import cross_validate
+
+pyodide_http.patch_all()
 
 data, target = fetch_california_housing(return_X_y=True, as_frame=True)
 target *= 100  # rescale the target in k$
