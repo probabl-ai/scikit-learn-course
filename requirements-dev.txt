@@ -3,8 +3,8 @@ pandas >= 1
 matplotlib
 seaborn >= 0.13
 plotly
-jupyter-book < 2.0
 skrub
+jupyter-book < 2.0
 jupytext
 beautifulsoup4
 IPython
