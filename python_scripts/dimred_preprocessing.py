@@ -242,6 +242,7 @@ plt.show()
 # fair description of what PCA computed in that space.
 
 # %%
+# %pip install skrub
 from sklearn.preprocessing import RobustScaler
 from skrub import SquashingScaler
 

@@ -44,6 +44,7 @@ X, _ = load_wine(return_X_y=True, as_frame=True)
 # real data where the features have very different scales and units.
 
 # %%
+# %pip install skrub
 from skrub import TableReport
 
 TableReport(X)

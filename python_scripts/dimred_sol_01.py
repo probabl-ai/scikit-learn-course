@@ -92,6 +92,7 @@ print(f"After degree-2 expansion:          {poly.n_output_features_}")
 # `n_components` using the grid defined below. Fit it on the full dataset.
 
 # %%
+# %pip install skrub
 from sklearn.decomposition import PCA
 from sklearn.linear_model import Ridge
 from sklearn.pipeline import make_pipeline
