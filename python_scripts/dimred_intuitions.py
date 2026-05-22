@@ -39,10 +39,11 @@ penguins.plot.scatter(x="Culmen Length (mm)", y="Culmen Depth (mm)")
 # which PCA can identify. The second PC would align with the direction with
 # second to most variance, and so on.
 #
-# In our case we begin by extracting both components to understand the full
-# picture. **This is not dimensional reduction yet**, these components are
-# linear combinations of the original features, in other words, just a rotation
-# to more convenient axes.
+# We begin by extracting both components (`n_components` = `n_features`) to
+# understand the full picture. **This is not dimensional reduction yet**. In
+# this case the components are linear combinations of the (centered) original
+# features, in other words, just a change of basis to a more convenient
+# coordinate system.
 
 # %%
 from sklearn.decomposition import PCA
@@ -61,20 +62,21 @@ pca.fit(penguins)
 pca.components_
 
 # %% [markdown]
-# These numbers tell us how to create the new features:
+# These `components_` tell us how to create the new features (after centering):
 
 # %%
 feature_names = penguins.columns.tolist()
 for i, component in enumerate(pca.components_):
     terms = " + ".join(
-        f"{w:.1f} * {f}" for w, f in zip(component, feature_names)
+        f"{w:.1f} * ({f} - {m:.1f})"
+        for w, f, m in zip(component, feature_names, pca.mean_)
     )
     print(f"PC{i + 1} = {terms}")
 
 # %% [markdown]
-# The components are perpendicular (orthogonal) to each other. Indeed,
-# components in the space of reduced dimensions work as new coordinate axes. We
-# can plot them to better visualize the effect.
+# The components are perpendicular to each other. Indeed, components in the
+# space of reduced dimensions work as new coordinate axes. We can plot them to
+# better visualize the effect.
 
 # %%
 import numpy as np
