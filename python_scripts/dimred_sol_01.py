@@ -151,6 +151,7 @@ grid_search_results.sort_values("mean_test_error", ascending=False)
 # without modifications once `grid_search_results` is correctly defined.
 
 # %%
+# %pip install plotly nbformat
 import plotly.express as px
 
 labels = {

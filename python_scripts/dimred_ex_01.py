@@ -129,6 +129,7 @@ grid_search_results = [...]  # complete this code
 # without modifications once `grid_search_results` is correctly defined.
 
 # %%
+# %pip install plotly nbformat
 import plotly.express as px
 
 labels = {
