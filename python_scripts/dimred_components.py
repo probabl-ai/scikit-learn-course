@@ -30,6 +30,7 @@
 # access to the true cultivar labels.
 
 # %%
+import pandas
 from sklearn.datasets import load_wine
 
 X, _ = load_wine(return_X_y=True, as_frame=True)

@@ -68,6 +68,7 @@ data_encoded
 # structure at a glance.
 
 # %%
+# %pip install plotly nbformat
 import textwrap
 import plotly.graph_objects as go
 from sklearn.decomposition import PCA
@@ -106,7 +107,7 @@ def plot_2d_projection(estimator, data, categories_to_plot):
         yaxis_title="PC2",
         yaxis=dict(scaleanchor="x", scaleratio=1),  # set equal axes
     )
-    fig.show()
+    fig.show(renderer="notebook")
 
 
 all_categories = data["category"].unique()
@@ -133,6 +134,7 @@ plot_2d_projection(pca, data, all_categories)
 # this category.
 
 # %%
+# %pip install seaborn
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
