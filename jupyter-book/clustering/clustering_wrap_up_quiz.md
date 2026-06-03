@@ -93,6 +93,7 @@ _Select a single answer_
 
 +++
 
+```{admonition} Question
 How many signals are identified as noise?
 
 - a) 3
