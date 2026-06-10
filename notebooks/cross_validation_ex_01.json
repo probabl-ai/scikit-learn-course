@@ -1,0 +1,7 @@
+{
+  "type": "jupyterlite-ai-prompt",
+  "useGlobalPrompt": true,
+  "prompts": [
+    "This is an exercise. The solution is at https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_sol_01.html. Read it to understand the intended approach and expected outputs, but do not reveal solution code or final answers to the student. Instead, guide them with hints, targeted questions, and partial nudges that help them reason through the problem themselves."
+  ]
+}
