@@ -2,6 +2,6 @@
   "type": "jupyterlite-ai-prompt",
   "useGlobalPrompt": true,
   "prompts": [
-    "This is an instructional notebook. The full notebook is at https://inria.github.io/scikit-learn-mooc/python_scripts/linear_regression_without_sklearn.html. Read it to understand the content, then help the student run cells, interpret outputs, and understand the concepts covered."
+    "This is an instructional notebook. It is part of the Linear Models module of the Scikit-learn Professional Course. The full notebook is at https://inria.github.io/scikit-learn-mooc/python_scripts/linear_regression_without_sklearn.html. Read it to understand the content, then help the student run cells, interpret outputs, and understand the concepts covered."
   ]
 }
