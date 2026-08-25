@@ -30,6 +30,8 @@ penguins
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 feature_name = "Flipper Length (mm)"

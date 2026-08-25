@@ -67,6 +67,8 @@ _ = penguins.hist(figsize=(8, 4))
 
 # %%
 # %pip install seaborn
+
+# %%
 # solution
 import seaborn
 

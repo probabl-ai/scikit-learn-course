@@ -84,6 +84,8 @@ forest_predictions = forest.predict(data_range)
 
 # %%
 # %pip install seaborn
+
+# %%
 # solution
 import matplotlib.pyplot as plt
 import seaborn as sns

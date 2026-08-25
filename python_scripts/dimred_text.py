@@ -135,6 +135,8 @@ plot_2d_projection(pca, data, all_categories)
 
 # %%
 # %pip install seaborn
+
+# %%
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt

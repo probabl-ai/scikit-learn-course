@@ -71,6 +71,8 @@ target_predicted_tree = tree.predict(data_test)
 
 # %%
 # %pip install seaborn
+
+# %%
 # solution
 import matplotlib.pyplot as plt
 import seaborn as sns

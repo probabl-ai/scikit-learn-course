@@ -120,6 +120,8 @@ california_housing.frame[features_of_interest].describe()
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 sns.scatterplot(

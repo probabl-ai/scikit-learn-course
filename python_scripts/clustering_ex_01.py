@@ -38,6 +38,8 @@ data
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 _ = sns.pairplot(data)

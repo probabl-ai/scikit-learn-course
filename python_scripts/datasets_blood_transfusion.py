@@ -106,6 +106,8 @@ target.value_counts(normalize=True)
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 _ = sns.pairplot(blood_transfusion, hue="Class")
