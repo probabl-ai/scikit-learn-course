@@ -63,6 +63,8 @@ target_test = penguins_test[target_column]
 
 # %%
 # %pip install seaborn
+
+# %%
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.inspection import DecisionBoundaryDisplay

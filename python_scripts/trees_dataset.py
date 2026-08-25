@@ -56,6 +56,8 @@ penguins
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 pairplot_figure = sns.pairplot(penguins, hue="Species")

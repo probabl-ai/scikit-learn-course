@@ -44,6 +44,8 @@ def generate_data(n_samples=30):
 
 # %%
 # %pip install seaborn
+
+# %%
 import matplotlib.pyplot as plt
 import seaborn as sns
 

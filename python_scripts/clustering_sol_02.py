@@ -80,6 +80,8 @@ model = make_pipeline(
 
 # %%
 # %pip install seaborn
+
+# %%
 # solution
 import matplotlib.pyplot as plt
 import seaborn as sns

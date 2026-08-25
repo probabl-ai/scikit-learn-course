@@ -37,6 +37,8 @@ data, target = penguins[culmen_columns], penguins[target_column]
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 from sklearn.tree import DecisionTreeClassifier
 

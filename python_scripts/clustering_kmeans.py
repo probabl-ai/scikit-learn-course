@@ -54,6 +54,8 @@ penguins = penguins.drop(columns=["Species"])
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 _ = sns.pairplot(penguins, hue="Sex", height=4)

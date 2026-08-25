@@ -66,6 +66,8 @@ penguins
 
 # %%
 # %pip install seaborn
+
+# %%
 # Write your code here.
 
 # %% [markdown]

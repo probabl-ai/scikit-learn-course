@@ -59,6 +59,8 @@ data_test = pd.DataFrame(
 
 # %%
 # %pip install seaborn
+
+# %%
 import matplotlib.pyplot as plt
 import seaborn as sns
 

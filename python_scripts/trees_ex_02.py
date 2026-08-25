@@ -59,6 +59,8 @@ data_train, target_train = penguins[[feature_name]], penguins[target_name]
 
 # %%
 # %pip install seaborn
+
+# %%
 # Write your code here.
 
 # %% [markdown]

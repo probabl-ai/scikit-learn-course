@@ -51,6 +51,8 @@ full_data = pd.DataFrame({"input_feature": data, "target": target})
 
 # %%
 # %pip install seaborn
+
+# %%
 import seaborn as sns
 
 _ = sns.scatterplot(
